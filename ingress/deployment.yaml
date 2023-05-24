@@ -27,10 +27,6 @@ spec:
             ports:
               - containerPort: 80
 ---
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: catalog-deploy
 spec:
   minReadySeconds: 5
   replicas: 3
